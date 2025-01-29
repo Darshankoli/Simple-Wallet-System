@@ -1,0 +1,32 @@
+1. Add Money
+	* Allows the user to deposit money into the wallet.
+	* Validates that the amount is positive.
+	* Adds a transaction record.
+
+2. Remove Money
+	* Allows the user to withdraw money.
+	* Checks for sufficient balance before deducting.
+	* Daily Spending Limit prevents large withdrawals.
+	* Adds a transaction record.
+
+3. Check Balance
+	* Displays the current wallet balance.
+
+4. Transaction History
+	* Stores all Add/Remove transactions in a list.
+	* Displays a history of transactions when requested.
+
+5. Daily Spending Limit
+	* User sets a daily withdrawal limit when starting the app.
+	* Prevents overspending beyond the limit.
+
+6. Reset Wallet
+	* Clears all transactions and resets the balance to ₹0.
+	* Useful when starting fresh.
+
+7. PIN Authentication (Security)
+	* Requires a 4-digit PIN at the start to access the wallet.
+	* If the PIN is incorrect, access is denied.
+
+8. Exit Option
+	* Allows the user to quit the application safely.
